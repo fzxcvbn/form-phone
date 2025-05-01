@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div class="container">
+        <div class="about">
+            <button id="delete-btn">Заказать звонок</button>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup__content">
+                <img src="Котенок.jpg">
+                <div class="popup__content2">
+                    <h1>Успейте на скидки в 20%</h1>
+                    <p>Оставьте свой номер телефона, и мы перезвоним вам</p>
+                    <form id="phoneForm">
+                        <label for="phone">Ваш номер телефона*</label><br>
+                        <input type="tel" name="phone"><br>
+                        <button id="wait-call-btn" class="popup__button" type="submit">Жду звонка</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="success" class="popup">
+            <div class="popup__content">
+                <h2 class="popup__title">Товары из корзины были удалены</h2>
+                <button id="buy-btn" class="popup__button">Вернуться в каталог</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
