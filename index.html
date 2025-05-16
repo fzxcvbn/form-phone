@@ -21,6 +21,11 @@
                     <form id="phoneForm">
                         <label for="phone">Ваш номер телефона*</label><br>
                         <input type="tel" name="phone"><br>
+                        <input type="radio" name="time" id="btn-no-datetime">
+                        <label for="time">Сейчас</label>
+                        <input type="radio" name="time" id="btn-datetime">
+                        <label for="time">Позже</label><br>
+                        <input type="datetime-local" id="datetime"><br>
                         <button id="wait-call-btn" class="popup__button" type="submit">Жду звонка</button>
                     </form>
                 </div>
